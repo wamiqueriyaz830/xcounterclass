@@ -26,7 +26,7 @@ export default class Counter extends Component {
     return (
         <>
         <div>Counter App</div>
-        <p>Counter: {this.state.value}</p>
+        <p>Count: {this.state.value}</p>
         <button onClick={this.increment}>Increment</button>
         <button onClick={this.decrement}>Decrement</button>
         </>
